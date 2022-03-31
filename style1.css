@@ -43,4 +43,19 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        text-align: center;
+    }
+    
+    .value {
+        font-weight: bolder;
+        font-size: 15px;
+        background-color: antiquewhite;
+    }
+    
+    .open {
+        margin: 1px;
+        padding: 3px;
+        border: 1px groove grey;
+        border-radius: 9px;
+        background-color: rgba(250, 235, 215, 0.342);
     }
