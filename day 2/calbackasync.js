@@ -57,7 +57,6 @@ console.log("..................... async/await...........");
 async function akraam() {
     console.log("inside async func");
     const reponse = await fetch('https://github.com/bagewadi-akram/JavaScript');
-    const user = await Response.json();
     console.log('users resolved')
     return user;
 }
